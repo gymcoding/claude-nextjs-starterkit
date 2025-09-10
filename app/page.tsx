@@ -7,7 +7,7 @@ export default function Home() {
   return (
     <div className="flex flex-col">
       {/* Hero Section */}
-      <section className="container px-4 py-24 mx-auto">
+      <section className="container max-w-screen-2xl px-4 py-24 mx-auto">
         <div className="flex flex-col items-center text-center space-y-8">
           <div className="space-y-4">
             <Badge variant="secondary" className="text-sm">
@@ -38,7 +38,7 @@ export default function Home() {
       </section>
 
       {/* Features Section */}
-      <section className="container px-4 py-24 mx-auto">
+      <section className="container max-w-screen-2xl px-4 py-24 mx-auto">
         <div className="text-center space-y-4 mb-16">
           <h2 className="text-3xl font-bold tracking-tight sm:text-4xl">
             모든 것이 준비되어 있습니다
@@ -125,7 +125,7 @@ export default function Home() {
 
       {/* CTA Section */}
       <section className="bg-muted/30 py-24">
-        <div className="container px-4 mx-auto text-center space-y-8">
+        <div className="container max-w-screen-2xl px-4 mx-auto text-center space-y-8">
           <h2 className="text-3xl font-bold tracking-tight sm:text-4xl">
             지금 바로 시작해보세요
           </h2>
